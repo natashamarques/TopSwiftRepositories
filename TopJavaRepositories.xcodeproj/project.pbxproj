@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4410418A79C2E9458978E29D /* Pods_TopJavaRepositories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704757CEEEA08A526F70408D /* Pods_TopJavaRepositories.framework */; };
+		84E51877618F1180206F153D /* Pods_TopJavaRepositories_TopJavaRepositoriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D97087C1326468B5302A32 /* Pods_TopJavaRepositories_TopJavaRepositoriesUITests.framework */; };
+		A5407213A8BDB68E4E6AEF3B /* Pods_TopJavaRepositoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9778C2B976E0E7C97A6DBB8A /* Pods_TopJavaRepositoriesTests.framework */; };
+		DD6C7B93283AEF5F00CF5F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7B92283AEF5F00CF5F5F /* AppDelegate.swift */; };
+		DD6C7B95283AEF5F00CF5F5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7B94283AEF5F00CF5F5F /* SceneDelegate.swift */; };
+		DD6C7B9C283AEF6100CF5F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD6C7B9B283AEF6100CF5F5F /* Assets.xcassets */; };
+		DD6C7B9F283AEF6100CF5F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD6C7B9D283AEF6100CF5F5F /* LaunchScreen.storyboard */; };
+		DD6C7BAA283AEF6200CF5F5F /* TopJavaRepositoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7BA9283AEF6200CF5F5F /* TopJavaRepositoriesTests.swift */; };
+		DD6C7BB4283AEF6200CF5F5F /* TopJavaRepositoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7BB3283AEF6200CF5F5F /* TopJavaRepositoriesUITests.swift */; };
+		DD6C7BB6283AEF6200CF5F5F /* TopJavaRepositoriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7BB5283AEF6200CF5F5F /* TopJavaRepositoriesUITestsLaunchTests.swift */; };
+		DD6C7BC6283AF01600CF5F5F /* NetworkingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7BC3283AF01600CF5F5F /* NetworkingError.swift */; };
+		DD6C7BC7283AF01600CF5F5F /* NetworkingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7BC4283AF01600CF5F5F /* NetworkingProvider.swift */; };
+		DD6C7BC8283AF01600CF5F5F /* RequestProviderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6C7BC5283AF01600CF5F5F /* RequestProviderProtocol.swift */; };
+		DDDB1730283AF2700014BDC4 /* TopListRepositoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB172E283AF2700014BDC4 /* TopListRepositoriesViewController.swift */; };
+		DDDB1731283AF2700014BDC4 /* TopListRepositoriesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDB172F283AF2700014BDC4 /* TopListRepositoriesViewController.xib */; };
+		DDDB1735283AF3710014BDC4 /* TopListRepositoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB1733283AF3710014BDC4 /* TopListRepositoriesTableViewCell.swift */; };
+		DDDB1736283AF3710014BDC4 /* TopListRepositoriesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDDB1734283AF3710014BDC4 /* TopListRepositoriesTableViewCell.xib */; };
+		DDDB1738283AFC2D0014BDC4 /* TopListRepositoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB1737283AFC2D0014BDC4 /* TopListRepositoriesModel.swift */; };
+		DDDB173B283AFCBC0014BDC4 /* TopListRepositoriesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB173A283AFCBC0014BDC4 /* TopListRepositoriesProvider.swift */; };
+		DDDB173D283AFD480014BDC4 /* TopListRepositoriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB173C283AFD480014BDC4 /* TopListRepositoriesService.swift */; };
+		DDDB173F283AFDBA0014BDC4 /* TopListRepositoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB173E283AFDBA0014BDC4 /* TopListRepositoriesViewModel.swift */; };
+		DDDB1741283B0C210014BDC4 /* TopListRepositoriesCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB1740283B0C210014BDC4 /* TopListRepositoriesCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD6C7BA6283AEF6200CF5F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6C7B87283AEF5F00CF5F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6C7B8E283AEF5F00CF5F5F;
+			remoteInfo = TopJavaRepositories;
+		};
+		DD6C7BB0283AEF6200CF5F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6C7B87283AEF5F00CF5F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD6C7B8E283AEF5F00CF5F5F;
+			remoteInfo = TopJavaRepositories;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A3DD248A11128FC6B01B571 /* Pods-TopJavaRepositories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopJavaRepositories.release.xcconfig"; path = "Target Support Files/Pods-TopJavaRepositories/Pods-TopJavaRepositories.release.xcconfig"; sourceTree = "<group>"; };
+		693E549B03F53C015B8EADA9 /* Pods-TopJavaRepositories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopJavaRepositories.debug.xcconfig"; path = "Target Support Files/Pods-TopJavaRepositories/Pods-TopJavaRepositories.debug.xcconfig"; sourceTree = "<group>"; };
+		704757CEEEA08A526F70408D /* Pods_TopJavaRepositories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopJavaRepositories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D97087C1326468B5302A32 /* Pods_TopJavaRepositories_TopJavaRepositoriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopJavaRepositories_TopJavaRepositoriesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E4098DCADED9E3018280139 /* Pods-TopJavaRepositories-TopJavaRepositoriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopJavaRepositories-TopJavaRepositoriesUITests.release.xcconfig"; path = "Target Support Files/Pods-TopJavaRepositories-TopJavaRepositoriesUITests/Pods-TopJavaRepositories-TopJavaRepositoriesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9778C2B976E0E7C97A6DBB8A /* Pods_TopJavaRepositoriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TopJavaRepositoriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A845794F03BCCD3E2E431A /* Pods-TopJavaRepositories-TopJavaRepositoriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopJavaRepositories-TopJavaRepositoriesUITests.debug.xcconfig"; path = "Target Support Files/Pods-TopJavaRepositories-TopJavaRepositoriesUITests/Pods-TopJavaRepositories-TopJavaRepositoriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BAE8D3A0F848BB9D1F0E0584 /* Pods-TopJavaRepositoriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopJavaRepositoriesTests.release.xcconfig"; path = "Target Support Files/Pods-TopJavaRepositoriesTests/Pods-TopJavaRepositoriesTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD6C7B8F283AEF5F00CF5F5F /* TopJavaRepositories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopJavaRepositories.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6C7B92283AEF5F00CF5F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD6C7B94283AEF5F00CF5F5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DD6C7B9B283AEF6100CF5F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD6C7B9E283AEF6100CF5F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD6C7BA0283AEF6100CF5F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD6C7BA5283AEF6200CF5F5F /* TopJavaRepositoriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopJavaRepositoriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6C7BA9283AEF6200CF5F5F /* TopJavaRepositoriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopJavaRepositoriesTests.swift; sourceTree = "<group>"; };
+		DD6C7BAF283AEF6200CF5F5F /* TopJavaRepositoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TopJavaRepositoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6C7BB3283AEF6200CF5F5F /* TopJavaRepositoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopJavaRepositoriesUITests.swift; sourceTree = "<group>"; };
+		DD6C7BB5283AEF6200CF5F5F /* TopJavaRepositoriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopJavaRepositoriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD6C7BC3283AF01600CF5F5F /* NetworkingError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingError.swift; sourceTree = "<group>"; };
+		DD6C7BC4283AF01600CF5F5F /* NetworkingProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingProvider.swift; sourceTree = "<group>"; };
+		DD6C7BC5283AF01600CF5F5F /* RequestProviderProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestProviderProtocol.swift; sourceTree = "<group>"; };
+		DDDB172E283AF2700014BDC4 /* TopListRepositoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListRepositoriesViewController.swift; sourceTree = "<group>"; };
+		DDDB172F283AF2700014BDC4 /* TopListRepositoriesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopListRepositoriesViewController.xib; sourceTree = "<group>"; };
+		DDDB1733283AF3710014BDC4 /* TopListRepositoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListRepositoriesTableViewCell.swift; sourceTree = "<group>"; };
+		DDDB1734283AF3710014BDC4 /* TopListRepositoriesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopListRepositoriesTableViewCell.xib; sourceTree = "<group>"; };
+		DDDB1737283AFC2D0014BDC4 /* TopListRepositoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListRepositoriesModel.swift; sourceTree = "<group>"; };
+		DDDB173A283AFCBC0014BDC4 /* TopListRepositoriesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListRepositoriesProvider.swift; sourceTree = "<group>"; };
+		DDDB173C283AFD480014BDC4 /* TopListRepositoriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListRepositoriesService.swift; sourceTree = "<group>"; };
+		DDDB173E283AFDBA0014BDC4 /* TopListRepositoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListRepositoriesViewModel.swift; sourceTree = "<group>"; };
+		DDDB1740283B0C210014BDC4 /* TopListRepositoriesCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopListRepositoriesCoordinator.swift; sourceTree = "<group>"; };
+		DF04F273CA1A4BEA2B33D722 /* Pods-TopJavaRepositoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopJavaRepositoriesTests.debug.xcconfig"; path = "Target Support Files/Pods-TopJavaRepositoriesTests/Pods-TopJavaRepositoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD6C7B8C283AEF5F00CF5F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4410418A79C2E9458978E29D /* Pods_TopJavaRepositories.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6C7BA2283AEF6200CF5F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5407213A8BDB68E4E6AEF3B /* Pods_TopJavaRepositoriesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6C7BAC283AEF6200CF5F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E51877618F1180206F153D /* Pods_TopJavaRepositories_TopJavaRepositoriesUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B17DA8A49E46F2A8D8CF699 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				693E549B03F53C015B8EADA9 /* Pods-TopJavaRepositories.debug.xcconfig */,
+				4A3DD248A11128FC6B01B571 /* Pods-TopJavaRepositories.release.xcconfig */,
+				A0A845794F03BCCD3E2E431A /* Pods-TopJavaRepositories-TopJavaRepositoriesUITests.debug.xcconfig */,
+				8E4098DCADED9E3018280139 /* Pods-TopJavaRepositories-TopJavaRepositoriesUITests.release.xcconfig */,
+				DF04F273CA1A4BEA2B33D722 /* Pods-TopJavaRepositoriesTests.debug.xcconfig */,
+				BAE8D3A0F848BB9D1F0E0584 /* Pods-TopJavaRepositoriesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD6C7B86283AEF5F00CF5F5F = {
+			isa = PBXGroup;
+			children = (
+				DD6C7B91283AEF5F00CF5F5F /* TopJavaRepositories */,
+				DD6C7BA8283AEF6200CF5F5F /* TopJavaRepositoriesTests */,
+				DD6C7BB2283AEF6200CF5F5F /* TopJavaRepositoriesUITests */,
+				DD6C7B90283AEF5F00CF5F5F /* Products */,
+				2B17DA8A49E46F2A8D8CF699 /* Pods */,
+				EC9643EFA2D52F6E7253A6CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD6C7B90283AEF5F00CF5F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6C7B8F283AEF5F00CF5F5F /* TopJavaRepositories.app */,
+				DD6C7BA5283AEF6200CF5F5F /* TopJavaRepositoriesTests.xctest */,
+				DD6C7BAF283AEF6200CF5F5F /* TopJavaRepositoriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD6C7B91283AEF5F00CF5F5F /* TopJavaRepositories */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB1728283AF1B10014BDC4 /* TopListRepositories */,
+				DD6C7BC2283AF01600CF5F5F /* Network */,
+				DD6C7B92283AEF5F00CF5F5F /* AppDelegate.swift */,
+				DD6C7B94283AEF5F00CF5F5F /* SceneDelegate.swift */,
+				DD6C7B9B283AEF6100CF5F5F /* Assets.xcassets */,
+				DD6C7B9D283AEF6100CF5F5F /* LaunchScreen.storyboard */,
+				DD6C7BA0283AEF6100CF5F5F /* Info.plist */,
+			);
+			path = TopJavaRepositories;
+			sourceTree = "<group>";
+		};
+		DD6C7BA8283AEF6200CF5F5F /* TopJavaRepositoriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6C7BA9283AEF6200CF5F5F /* TopJavaRepositoriesTests.swift */,
+			);
+			path = TopJavaRepositoriesTests;
+			sourceTree = "<group>";
+		};
+		DD6C7BB2283AEF6200CF5F5F /* TopJavaRepositoriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD6C7BB3283AEF6200CF5F5F /* TopJavaRepositoriesUITests.swift */,
+				DD6C7BB5283AEF6200CF5F5F /* TopJavaRepositoriesUITestsLaunchTests.swift */,
+			);
+			path = TopJavaRepositoriesUITests;
+			sourceTree = "<group>";
+		};
+		DD6C7BC2283AF01600CF5F5F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD6C7BC3283AF01600CF5F5F /* NetworkingError.swift */,
+				DD6C7BC4283AF01600CF5F5F /* NetworkingProvider.swift */,
+				DD6C7BC5283AF01600CF5F5F /* RequestProviderProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DDDB1728283AF1B10014BDC4 /* TopListRepositories */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB172D283AF1FE0014BDC4 /* Coordinator */,
+				DDDB172C283AF1F10014BDC4 /* Model */,
+				DDDB172B283AF1E90014BDC4 /* View */,
+				DDDB172A283AF1DA0014BDC4 /* ViewModel */,
+				DDDB1729283AF1CD0014BDC4 /* Service */,
+			);
+			path = TopListRepositories;
+			sourceTree = "<group>";
+		};
+		DDDB1729283AF1CD0014BDC4 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB1739283AFC690014BDC4 /* Provider */,
+				DDDB173C283AFD480014BDC4 /* TopListRepositoriesService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DDDB172A283AF1DA0014BDC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB173E283AFDBA0014BDC4 /* TopListRepositoriesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDDB172B283AF1E90014BDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB1732283AF33C0014BDC4 /* Cell */,
+				DDDB172E283AF2700014BDC4 /* TopListRepositoriesViewController.swift */,
+				DDDB172F283AF2700014BDC4 /* TopListRepositoriesViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDDB172C283AF1F10014BDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB1737283AFC2D0014BDC4 /* TopListRepositoriesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDDB172D283AF1FE0014BDC4 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB1740283B0C210014BDC4 /* TopListRepositoriesCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		DDDB1732283AF33C0014BDC4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB1733283AF3710014BDC4 /* TopListRepositoriesTableViewCell.swift */,
+				DDDB1734283AF3710014BDC4 /* TopListRepositoriesTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DDDB1739283AFC690014BDC4 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB173A283AFCBC0014BDC4 /* TopListRepositoriesProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		EC9643EFA2D52F6E7253A6CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704757CEEEA08A526F70408D /* Pods_TopJavaRepositories.framework */,
+				81D97087C1326468B5302A32 /* Pods_TopJavaRepositories_TopJavaRepositoriesUITests.framework */,
+				9778C2B976E0E7C97A6DBB8A /* Pods_TopJavaRepositoriesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD6C7B8E283AEF5F00CF5F5F /* TopJavaRepositories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6C7BB9283AEF6200CF5F5F /* Build configuration list for PBXNativeTarget "TopJavaRepositories" */;
+			buildPhases = (
+				D242247B6CD1FA3D3AD2C899 /* [CP] Check Pods Manifest.lock */,
+				DD6C7B8B283AEF5F00CF5F5F /* Sources */,
+				DD6C7B8C283AEF5F00CF5F5F /* Frameworks */,
+				DD6C7B8D283AEF5F00CF5F5F /* Resources */,
+				56ECC16210C4522C9490406C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopJavaRepositories;
+			productName = TopJavaRepositories;
+			productReference = DD6C7B8F283AEF5F00CF5F5F /* TopJavaRepositories.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD6C7BA4283AEF6200CF5F5F /* TopJavaRepositoriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6C7BBC283AEF6200CF5F5F /* Build configuration list for PBXNativeTarget "TopJavaRepositoriesTests" */;
+			buildPhases = (
+				86BB3348541B14E7C5C49B9C /* [CP] Check Pods Manifest.lock */,
+				DD6C7BA1283AEF6200CF5F5F /* Sources */,
+				DD6C7BA2283AEF6200CF5F5F /* Frameworks */,
+				DD6C7BA3283AEF6200CF5F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6C7BA7283AEF6200CF5F5F /* PBXTargetDependency */,
+			);
+			name = TopJavaRepositoriesTests;
+			productName = TopJavaRepositoriesTests;
+			productReference = DD6C7BA5283AEF6200CF5F5F /* TopJavaRepositoriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD6C7BAE283AEF6200CF5F5F /* TopJavaRepositoriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD6C7BBF283AEF6200CF5F5F /* Build configuration list for PBXNativeTarget "TopJavaRepositoriesUITests" */;
+			buildPhases = (
+				CCBDE9077CBAC5109B83026D /* [CP] Check Pods Manifest.lock */,
+				DD6C7BAB283AEF6200CF5F5F /* Sources */,
+				DD6C7BAC283AEF6200CF5F5F /* Frameworks */,
+				DD6C7BAD283AEF6200CF5F5F /* Resources */,
+				3E172B6C2D009E441C9A8255 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD6C7BB1283AEF6200CF5F5F /* PBXTargetDependency */,
+			);
+			name = TopJavaRepositoriesUITests;
+			productName = TopJavaRepositoriesUITests;
+			productReference = DD6C7BAF283AEF6200CF5F5F /* TopJavaRepositoriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD6C7B87283AEF5F00CF5F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					DD6C7B8E283AEF5F00CF5F5F = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					DD6C7BA4283AEF6200CF5F5F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD6C7B8E283AEF5F00CF5F5F;
+					};
+					DD6C7BAE283AEF6200CF5F5F = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = DD6C7B8E283AEF5F00CF5F5F;
+					};
+				};
+			};
+			buildConfigurationList = DD6C7B8A283AEF5F00CF5F5F /* Build configuration list for PBXProject "TopJavaRepositories" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD6C7B86283AEF5F00CF5F5F;
+			productRefGroup = DD6C7B90283AEF5F00CF5F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD6C7B8E283AEF5F00CF5F5F /* TopJavaRepositories */,
+				DD6C7BA4283AEF6200CF5F5F /* TopJavaRepositoriesTests */,
+				DD6C7BAE283AEF6200CF5F5F /* TopJavaRepositoriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD6C7B8D283AEF5F00CF5F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6C7B9F283AEF6100CF5F5F /* LaunchScreen.storyboard in Resources */,
+				DDDB1731283AF2700014BDC4 /* TopListRepositoriesViewController.xib in Resources */,
+				DD6C7B9C283AEF6100CF5F5F /* Assets.xcassets in Resources */,
+				DDDB1736283AF3710014BDC4 /* TopListRepositoriesTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6C7BA3283AEF6200CF5F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6C7BAD283AEF6200CF5F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E172B6C2D009E441C9A8255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopJavaRepositories-TopJavaRepositoriesUITests/Pods-TopJavaRepositories-TopJavaRepositoriesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopJavaRepositories-TopJavaRepositoriesUITests/Pods-TopJavaRepositories-TopJavaRepositoriesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopJavaRepositories-TopJavaRepositoriesUITests/Pods-TopJavaRepositories-TopJavaRepositoriesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56ECC16210C4522C9490406C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopJavaRepositories/Pods-TopJavaRepositories-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TopJavaRepositories/Pods-TopJavaRepositories-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TopJavaRepositories/Pods-TopJavaRepositories-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BB3348541B14E7C5C49B9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopJavaRepositoriesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCBDE9077CBAC5109B83026D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopJavaRepositories-TopJavaRepositoriesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D242247B6CD1FA3D3AD2C899 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TopJavaRepositories-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD6C7B8B283AEF5F00CF5F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6C7B93283AEF5F00CF5F5F /* AppDelegate.swift in Sources */,
+				DDDB1738283AFC2D0014BDC4 /* TopListRepositoriesModel.swift in Sources */,
+				DD6C7BC8283AF01600CF5F5F /* RequestProviderProtocol.swift in Sources */,
+				DDDB1730283AF2700014BDC4 /* TopListRepositoriesViewController.swift in Sources */,
+				DDDB1735283AF3710014BDC4 /* TopListRepositoriesTableViewCell.swift in Sources */,
+				DDDB173B283AFCBC0014BDC4 /* TopListRepositoriesProvider.swift in Sources */,
+				DD6C7BC6283AF01600CF5F5F /* NetworkingError.swift in Sources */,
+				DDDB173F283AFDBA0014BDC4 /* TopListRepositoriesViewModel.swift in Sources */,
+				DD6C7BC7283AF01600CF5F5F /* NetworkingProvider.swift in Sources */,
+				DDDB173D283AFD480014BDC4 /* TopListRepositoriesService.swift in Sources */,
+				DDDB1741283B0C210014BDC4 /* TopListRepositoriesCoordinator.swift in Sources */,
+				DD6C7B95283AEF5F00CF5F5F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6C7BA1283AEF6200CF5F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6C7BAA283AEF6200CF5F5F /* TopJavaRepositoriesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD6C7BAB283AEF6200CF5F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6C7BB6283AEF6200CF5F5F /* TopJavaRepositoriesUITestsLaunchTests.swift in Sources */,
+				DD6C7BB4283AEF6200CF5F5F /* TopJavaRepositoriesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD6C7BA7283AEF6200CF5F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6C7B8E283AEF5F00CF5F5F /* TopJavaRepositories */;
+			targetProxy = DD6C7BA6283AEF6200CF5F5F /* PBXContainerItemProxy */;
+		};
+		DD6C7BB1283AEF6200CF5F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD6C7B8E283AEF5F00CF5F5F /* TopJavaRepositories */;
+			targetProxy = DD6C7BB0283AEF6200CF5F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD6C7B9D283AEF6100CF5F5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD6C7B9E283AEF6100CF5F5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD6C7BB7283AEF6200CF5F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD6C7BB8283AEF6200CF5F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD6C7BBA283AEF6200CF5F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 693E549B03F53C015B8EADA9 /* Pods-TopJavaRepositories.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopJavaRepositories/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "curso-ios.TopJavaRepositories";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD6C7BBB283AEF6200CF5F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A3DD248A11128FC6B01B571 /* Pods-TopJavaRepositories.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopJavaRepositories/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "curso-ios.TopJavaRepositories";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD6C7BBD283AEF6200CF5F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF04F273CA1A4BEA2B33D722 /* Pods-TopJavaRepositoriesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "curso-ios.TopJavaRepositoriesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopJavaRepositories.app/TopJavaRepositories";
+			};
+			name = Debug;
+		};
+		DD6C7BBE283AEF6200CF5F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE8D3A0F848BB9D1F0E0584 /* Pods-TopJavaRepositoriesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "curso-ios.TopJavaRepositoriesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TopJavaRepositories.app/TopJavaRepositories";
+			};
+			name = Release;
+		};
+		DD6C7BC0283AEF6200CF5F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A845794F03BCCD3E2E431A /* Pods-TopJavaRepositories-TopJavaRepositoriesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "curso-ios.TopJavaRepositoriesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopJavaRepositories;
+			};
+			name = Debug;
+		};
+		DD6C7BC1283AEF6200CF5F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4098DCADED9E3018280139 /* Pods-TopJavaRepositories-TopJavaRepositoriesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "curso-ios.TopJavaRepositoriesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TopJavaRepositories;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD6C7B8A283AEF5F00CF5F5F /* Build configuration list for PBXProject "TopJavaRepositories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6C7BB7283AEF6200CF5F5F /* Debug */,
+				DD6C7BB8283AEF6200CF5F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6C7BB9283AEF6200CF5F5F /* Build configuration list for PBXNativeTarget "TopJavaRepositories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6C7BBA283AEF6200CF5F5F /* Debug */,
+				DD6C7BBB283AEF6200CF5F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6C7BBC283AEF6200CF5F5F /* Build configuration list for PBXNativeTarget "TopJavaRepositoriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6C7BBD283AEF6200CF5F5F /* Debug */,
+				DD6C7BBE283AEF6200CF5F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD6C7BBF283AEF6200CF5F5F /* Build configuration list for PBXNativeTarget "TopJavaRepositoriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD6C7BC0283AEF6200CF5F5F /* Debug */,
+				DD6C7BC1283AEF6200CF5F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD6C7B87283AEF5F00CF5F5F /* Project object */;
+}

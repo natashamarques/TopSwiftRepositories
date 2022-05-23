@@ -1,0 +1,6 @@
+framework module Pods_TopJavaRepositoriesTests {
+  umbrella header "Pods-TopJavaRepositoriesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
