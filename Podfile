@@ -1,18 +1,19 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'TopJavaRepositories' do
-  # Comment the next line if you don't want to use dynamic frameworks
+target 'TopSwiftRepositories' do
+ 
+  pod 'SDWebImage'
   use_frameworks!
 
-  pod 'SDWebImage'
+  # Pods for TopSwiftRepositories
 
-  target 'TopJavaRepositoriesTests' do
+  target 'TopSwiftRepositoriesTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'TopJavaRepositoriesUITests' do
+  target 'TopSwiftRepositoriesUITests' do
     # Pods for testing
   end
 

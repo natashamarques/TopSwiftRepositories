@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopListRepositoriesTableViewCell" rowHeight="94" id="KGk-i7-Jjw" customClass="TopListRepositoriesTableViewCell" customModule="TopSwiftRepositories" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="365" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="365" height="94"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yyc-i8-AeG">
+                        <rect key="frame" x="15" y="15" width="72" height="61"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="72" id="HhW-bW-bLm"/>
+                            <constraint firstAttribute="height" constant="61" id="d3x-6M-kbG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="awesome-ios" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3I-AN-wIF">
+                        <rect key="frame" x="97" y="11" width="82.5" height="18"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="csouza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCa-o3-iRt">
+                        <rect key="frame" x="97" y="29" width="175" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="175" id="KIg-JC-CEm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="13"/>
+                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffW-So-IOS">
+                        <rect key="frame" x="97" y="50" width="258" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="Fcg-76-0u8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="i3C-Hw-38A">
+                        <rect key="frame" x="301" y="10" width="19" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="C5c-Bp-Gc6"/>
+                            <constraint firstAttribute="width" constant="19" id="TgV-FL-Zt9"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5H-km-a0p">
+                        <rect key="frame" x="331" y="10" width="29" height="16"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ea-8q-G09">
+                        <rect key="frame" x="331" y="29" width="29" height="16"/>
+                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Light" family="Apple SD Gothic Neo" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fork" translatesAutoresizingMaskIntoConstraints="NO" id="4yD-X9-3Xn">
+                        <rect key="frame" x="301" y="31" width="19" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="d7G-HQ-MxM"/>
+                            <constraint firstAttribute="width" constant="19" id="w7Z-GS-qb1"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="0ea-8q-G09" secondAttribute="trailing" constant="5" id="1Ji-16-Jc3"/>
+                    <constraint firstItem="P3I-AN-wIF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="29J-uD-hUE"/>
+                    <constraint firstAttribute="bottom" secondItem="ffW-So-IOS" secondAttribute="bottom" id="4ZW-yG-Flm"/>
+                    <constraint firstItem="4yD-X9-3Xn" firstAttribute="top" secondItem="i3C-Hw-38A" secondAttribute="bottom" constant="5" id="7Ak-TD-uRX"/>
+                    <constraint firstAttribute="trailing" secondItem="ffW-So-IOS" secondAttribute="trailing" constant="10" id="8ob-d3-6wW"/>
+                    <constraint firstItem="yyc-i8-AeG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="9aa-jK-8DC"/>
+                    <constraint firstItem="E5H-km-a0p" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="AOn-fq-3oF"/>
+                    <constraint firstItem="yyc-i8-AeG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="G8Y-cR-pDA"/>
+                    <constraint firstItem="fCa-o3-iRt" firstAttribute="top" secondItem="P3I-AN-wIF" secondAttribute="bottom" id="GuB-Fq-TUQ"/>
+                    <constraint firstItem="E5H-km-a0p" firstAttribute="leading" secondItem="i3C-Hw-38A" secondAttribute="trailing" constant="11" id="I4B-B9-129"/>
+                    <constraint firstItem="ffW-So-IOS" firstAttribute="leading" secondItem="yyc-i8-AeG" secondAttribute="trailing" constant="10" id="NKp-Sk-dcx"/>
+                    <constraint firstItem="4yD-X9-3Xn" firstAttribute="top" secondItem="i3C-Hw-38A" secondAttribute="bottom" constant="5" id="OKw-Ea-zal"/>
+                    <constraint firstItem="P3I-AN-wIF" firstAttribute="leading" secondItem="yyc-i8-AeG" secondAttribute="trailing" constant="10" id="PE7-pK-qoH"/>
+                    <constraint firstItem="fCa-o3-iRt" firstAttribute="leading" secondItem="yyc-i8-AeG" secondAttribute="trailing" constant="10" id="QLU-et-Rcw"/>
+                    <constraint firstItem="i3C-Hw-38A" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Rwx-IQ-zsL"/>
+                    <constraint firstItem="4yD-X9-3Xn" firstAttribute="trailing" secondItem="i3C-Hw-38A" secondAttribute="trailing" id="TaF-ji-2y3"/>
+                    <constraint firstItem="ffW-So-IOS" firstAttribute="top" secondItem="fCa-o3-iRt" secondAttribute="bottom" constant="5" id="VMS-k3-0nZ"/>
+                    <constraint firstItem="fCa-o3-iRt" firstAttribute="top" secondItem="P3I-AN-wIF" secondAttribute="bottom" id="awI-Aq-AY4"/>
+                    <constraint firstItem="E5H-km-a0p" firstAttribute="leading" secondItem="i3C-Hw-38A" secondAttribute="trailing" constant="11" id="bg0-oe-KvT"/>
+                    <constraint firstAttribute="bottom" secondItem="yyc-i8-AeG" secondAttribute="bottom" constant="15" id="dfO-iR-v6w"/>
+                    <constraint firstItem="0ea-8q-G09" firstAttribute="top" secondItem="E5H-km-a0p" secondAttribute="bottom" constant="3" id="iLk-lN-YlR"/>
+                    <constraint firstItem="0ea-8q-G09" firstAttribute="top" secondItem="E5H-km-a0p" secondAttribute="bottom" constant="3" id="lma-hH-MkP"/>
+                    <constraint firstAttribute="trailing" secondItem="E5H-km-a0p" secondAttribute="trailing" constant="5" id="otb-al-NQR"/>
+                    <constraint firstItem="i3C-Hw-38A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="P3I-AN-wIF" secondAttribute="trailing" constant="4" id="qJg-2P-Xa8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="avatarImageView" destination="yyc-i8-AeG" id="NgJ-Kl-KBh"/>
+                <outlet property="descriptionLabel" destination="ffW-So-IOS" id="YlU-qP-3iL"/>
+                <outlet property="numberForksLabel" destination="0ea-8q-G09" id="SJp-0n-MqW"/>
+                <outlet property="numberStarsLabel" destination="E5H-km-a0p" id="CHX-ci-OWI"/>
+                <outlet property="ownerNameLabel" destination="fCa-o3-iRt" id="FuH-d9-TJu"/>
+                <outlet property="repositoryNameLabel" destination="P3I-AN-wIF" id="okF-BN-atR"/>
+            </connections>
+            <point key="canvasLocation" x="170.28985507246378" y="172.09821428571428"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fork" width="80" height="80"/>
+        <image name="star" width="80" height="80"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
