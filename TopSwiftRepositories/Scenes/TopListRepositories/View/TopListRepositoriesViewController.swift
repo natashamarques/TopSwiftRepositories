@@ -48,7 +48,7 @@ class TopListRepositoriesViewController: UIViewController {
     
     func configureNavigation() {
         navigationController?.navigationBar.prefersLargeTitles = true
-        title = "List of Repositories"
+        title = "List of Top Repositories"
     }
     
     func configureTableView() {
